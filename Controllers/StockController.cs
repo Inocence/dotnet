@@ -29,7 +29,7 @@ namespace api.Controllers
         [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] StockQuery stockQuery) {
             var stocks = await _stockRepo.GetAllAsync(stockQuery);
-            var stockDto = stocks.Select(s => s.ToStockDto());
+            var stockDto = stocks.Select(s => s.ToStockDto()).ToList();
             return Ok(stockDto);
         }
 

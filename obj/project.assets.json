@@ -4827,11 +4827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\home\\code\\api\\api.csproj",
+      "projectUniqueName": "C:\\home\\code\\dotnet\\api.csproj",
       "projectName": "api",
-      "projectPath": "c:\\home\\code\\api\\api.csproj",
+      "projectPath": "C:\\home\\code\\dotnet\\api.csproj",
       "packagesPath": "C:\\Users\\baiyu\\.nuget\\packages\\",
-      "outputPath": "c:\\home\\code\\api\\obj\\",
+      "outputPath": "C:\\home\\code\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\baiyu\\AppData\\Roaming\\NuGet\\NuGet.Config",

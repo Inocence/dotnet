@@ -1,8 +1,11 @@
+using System.IdentityModel.Tokens.Jwt;
 using api.Data;
 using api.Interfaces;
 using api.Models;
 using api.Repository;
 using api.Services;
+using dotnet.Interfaces;
+using dotnet.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -45,6 +48,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
 });
 builder.Services.AddScoped<IStockRepository, StockRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<IPortfolioRepository, PortfolioRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddIdentity<AppUser, IdentityRole>(options => {
     // options.Password.RequireDigit = true;

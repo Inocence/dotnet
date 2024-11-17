@@ -13,5 +13,6 @@ namespace api.Dtos.Stock.Comment
         public DateTime CreatedOn { get; set; }
 
         public int? StockId { get; set; }
+        public string? CreatedBy { get; set; }
     }
 }

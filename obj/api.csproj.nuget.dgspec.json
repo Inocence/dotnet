@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\home\\code\\api\\api.csproj": {}
+    "C:\\home\\code\\dotnet\\api.csproj": {}
   },
   "projects": {
-    "C:\\home\\code\\api\\api.csproj": {
+    "C:\\home\\code\\dotnet\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\home\\code\\api\\api.csproj",
+        "projectUniqueName": "C:\\home\\code\\dotnet\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\home\\code\\api\\api.csproj",
+        "projectPath": "C:\\home\\code\\dotnet\\api.csproj",
         "packagesPath": "C:\\Users\\baiyu\\.nuget\\packages\\",
-        "outputPath": "C:\\home\\code\\api\\obj\\",
+        "outputPath": "C:\\home\\code\\dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baiyu\\AppData\\Roaming\\NuGet\\NuGet.Config",

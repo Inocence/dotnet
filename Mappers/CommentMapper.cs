@@ -16,15 +16,17 @@ namespace api.Mappers
                 Title = comment.Title,
                 Content = comment.Content,
                 CreatedOn = comment.CreatedOn,
-                StockId = comment.StockId
+                StockId = comment.StockId,
+                CreatedBy = comment.AppUser?.UserName ?? string.Empty
             };
         }
 
-        public static Comment ReqCreateCommentDto(this CreateCommentDto createCommentDto) {
+        public static Comment ReqCreateCommentDto(this CreateCommentDto createCommentDto, string appUserId) {
             return new Comment{
                 Title = createCommentDto.Title,
                 Content = createCommentDto.Content,
-                StockId = createCommentDto.StockId
+                StockId = createCommentDto.StockId,
+                AppUserId = appUserId
             };
         }
 
